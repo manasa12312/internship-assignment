@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-soft: #F4F1EC;
+  --text-primary: #2F3E3A;
+  --text-muted: #6E7B75;
+  --accent: #8FA89B;
+}
+
+body {
+  background-color: var(--bg-soft);
+  color: var(--text-primary);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-dm-serif), serif;
+}
